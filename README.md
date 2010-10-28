@@ -17,3 +17,9 @@ Check a user password against an existing md5 hashed password
 
 ### php.md5crypt( 'password' );
 Generate a salted, hashed password
+
+### php.encode_session( { 'key1': 'value1' } );
+Return a PHP encoded session string
+
+### php.decode_session( 'key1|s:6:"value1";' );
+Return a JavaScript object
