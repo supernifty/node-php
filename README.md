@@ -23,3 +23,6 @@ Return a PHP encoded session string
 
 ### php.decode_session( 'key1|s:6:"value1";' );
 Return a JavaScript object
+
+### php.generate_session()
+Generates a random alphanumeric 26 character session compatible with PHP
